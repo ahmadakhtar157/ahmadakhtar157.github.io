@@ -18,7 +18,7 @@
 <body>
   
   <!-- Navigation Menu-->
-  <nav class="navigation-menu">
+  <!-- <nav class="navigation-menu">
     <ul class="side-nav fixed section table-of-contents">
 
       <li class="logo">
@@ -63,6 +63,129 @@
         <a href="https://ahmadakhtar157.github.io/assets/resume/Ahmad_Akhtar_Resume.pdf" target="_blank"
         class="waves-effect waves-dark teal-text">
         <i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav> -->
+
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/passport-new1.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Varad's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Ahmad's resume in a new tab" href="https://ahmadakhtar157.github.io/assets/resume/Ahmad_Akhtar_Resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Ahmad
+        Akhtar</a><span class="black-text">Software Developer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Ahmad's Resume in a new tab"
+          href="https://ahmadakhtar157.github.io/assets/resume/Ahmad_Akhtar_Resume.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
   </nav>
@@ -244,8 +367,7 @@ utilized perspective transformation, object detection, and object tracking to fi
                 <img alt="anom chat app" src="/assets/img/project-chat-app.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Chat App<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">Chat App</span>
                 <p>
                   Anom, a chat application based on android studio.
                 </p>
@@ -260,8 +382,7 @@ utilized perspective transformation, object detection, and object tracking to fi
                 <img alt="timetable optimizer app" src="/assets/img/project-timetable-optimizer.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Timetable Optimizer<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">Timetable Optimizer</span>
                 <p>
                   A timetable optimizer build on python and react.
                 </p>
@@ -277,8 +398,7 @@ utilized perspective transformation, object detection, and object tracking to fi
                 style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Blog Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">Blog Web-App</span>
                 <p>
                   A simple and extensible blog web-app based on Flask.
                 </p>
@@ -293,8 +413,7 @@ utilized perspective transformation, object detection, and object tracking to fi
                 <img alt="Screenshot of  web app" src="/assets/img/project-maze-solver.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Maze solver<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">Maze solver</span>
                 <p>
                   A classification model that aims at finding shortest path for a maze.
                 </p>
@@ -309,8 +428,7 @@ utilized perspective transformation, object detection, and object tracking to fi
                 <img alt="Screenshot of  web app" src="/assets/img/project-cars-reader.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Liscence plate reader<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">Liscence plate reader</span>
                 <p>
                   A model that detects and recognizes license plates in images.
                 </p>
@@ -325,8 +443,7 @@ utilized perspective transformation, object detection, and object tracking to fi
                 <img alt="Screenshot of  web app" src="/assets/img/project-ascii-artist.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Image to ASCII<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">Image to ASCII</span>
                 <p>
                   A model that converts images to ASCII art.
                 </p>
@@ -636,10 +753,10 @@ utilized perspective transformation, object detection, and object tracking to fi
 
 
   <!-- jQuery-->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
   <!-- Materialize - Compiled and minified JavaScript-->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
   <script>
     // Materialize - Initializers
     $(document).ready(function () {
@@ -651,7 +768,7 @@ utilized perspective transformation, object detection, and object tracking to fi
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       })
     })
-  </script> -->
+  </script>
 
 </body>
 

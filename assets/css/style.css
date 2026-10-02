@@ -79,6 +79,22 @@
   background-color: black;
 }
 
+.whatsapp {
+  color: #25D366;
+}
+
+.instagram {
+  color: #C13584;
+}
+
+.whatsapp:hover {
+  background-color: #25D366;
+}
+
+.instagram:hover {
+  background-color: #C13584;
+}
+
 /* Buttons - Read Me, Contact Us */
 
 .readme {
